@@ -1,0 +1,30 @@
+﻿<Window x:Class="WPFClient.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFClient"
+        mc:Ignorable="d"
+        Title="Client" Height="480.4" Width="697.6" Background="#FF8AE4FF" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" >
+    <Grid Margin="0,0,0,0">
+        <Grid.Background>
+            <RadialGradientBrush>
+                <GradientStop Color="#FF82CDE5" Offset="0"/>
+                <GradientStop Color="#FF039ECD" Offset="1"/>
+            </RadialGradientBrush>
+        </Grid.Background>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="367*"/>
+            <ColumnDefinition Width="353*"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="btnSelectFile" Content="Select file" HorizontalAlignment="Left" Margin="187,89,0,0" VerticalAlignment="Top" Width="83" Height="25" FontSize="15" FontWeight="Bold" Background="#FFFFF6F6" Grid.Column="1" Click="BtnSelectFile_Click"/>
+        <Label Content="PATH" HorizontalAlignment="Left" Margin="42,84,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" TextOptions.TextHintingMode="Fixed" TextOptions.TextFormattingMode="Display" Height="30" Width="47"/>
+        <TextBox x:Name="txtPath" HorizontalAlignment="Left" Height="23" Margin="103,89,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="421" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="txtClient" Height="281" Margin="39,149,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="291" HorizontalAlignment="Left" Padding="10"/>
+        <TextBox x:Name="txtServer" HorizontalAlignment="Left" Height="281" Margin="2.8,149,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="291" Padding="10" Grid.Column="1"/>
+        <Label Content="Client" HorizontalAlignment="Left" Margin="316,11,0,0" VerticalAlignment="Top" FontFamily="Constantia" FontSize="36" FontWeight="Bold" Width="124" RenderTransformOrigin="0.5,0.5" Opacity="0.8" Height="54" Grid.ColumnSpan="2"/>
+        <Label Content="Send by client" HorizontalAlignment="Left" Margin="39,120,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" TextOptions.TextFormattingMode="Display" Height="30" Width="106"/>
+        <Label Content="Recieve from server" HorizontalAlignment="Left" Margin="2.8,120,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" Grid.Column="1" Height="29" Width="100"/>
+
+    </Grid>
+</Window>

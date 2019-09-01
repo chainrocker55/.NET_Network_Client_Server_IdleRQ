@@ -1,0 +1,15 @@
+C:\Users\chainrocker\source\repos\Server\ServerBase64\obj\Debug\ServerBase64.csprojAssemblyReference.cache
+C:\Users\chainrocker\source\repos\Server\ServerBase64\obj\Debug\MainWindow.g.cs
+C:\Users\chainrocker\source\repos\Server\ServerBase64\obj\Debug\App.g.cs
+C:\Users\chainrocker\source\repos\Server\ServerBase64\obj\Debug\ServerBase64_MarkupCompile.cache
+C:\Users\chainrocker\source\repos\Server\ServerBase64\obj\Debug\ServerBase64_MarkupCompile.lref
+C:\Users\chainrocker\source\repos\Server\ServerBase64\bin\Debug\ServerBase64.exe.config
+C:\Users\chainrocker\source\repos\Server\ServerBase64\bin\Debug\ServerBase64.exe
+C:\Users\chainrocker\source\repos\Server\ServerBase64\bin\Debug\ServerBase64.pdb
+C:\Users\chainrocker\source\repos\Server\ServerBase64\obj\Debug\MainWindow.baml
+C:\Users\chainrocker\source\repos\Server\ServerBase64\obj\Debug\ServerBase64.g.resources
+C:\Users\chainrocker\source\repos\Server\ServerBase64\obj\Debug\ServerBase64.Properties.Resources.resources
+C:\Users\chainrocker\source\repos\Server\ServerBase64\obj\Debug\ServerBase64.csproj.GenerateResource.cache
+C:\Users\chainrocker\source\repos\Server\ServerBase64\obj\Debug\ServerBase64.csproj.CoreCompileInputs.cache
+C:\Users\chainrocker\source\repos\Server\ServerBase64\obj\Debug\ServerBase64.exe
+C:\Users\chainrocker\source\repos\Server\ServerBase64\obj\Debug\ServerBase64.pdb

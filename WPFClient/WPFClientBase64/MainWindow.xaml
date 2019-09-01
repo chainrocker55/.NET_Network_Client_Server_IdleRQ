@@ -1,0 +1,21 @@
+﻿<Window x:Class="WPFClientBase64.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFClientBase64"
+        mc:Ignorable="d"
+        Title="Client Base 64" Height="429" Width="646.4" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid Background="#FFEFFFF5" OpacityMask="#FF202E69">
+        <Button x:Name="btnSelectFile" Content="Select file" HorizontalAlignment="Left" Margin="529.4,89,0,0" VerticalAlignment="Top" Width="83" Height="25" FontSize="15" FontWeight="Bold" Background="#FFFFF6F6" Click="BtnSelectFile_Click"/>
+        <Label Content="PATH" HorizontalAlignment="Left" Margin="42,84,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" TextOptions.TextHintingMode="Fixed" TextOptions.TextFormattingMode="Display" Height="30" Width="47"/>
+        <TextBox x:Name="txtPath" HorizontalAlignment="Left" Height="23" Margin="103,89,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="421"/>
+        <Label Content="Client" HorizontalAlignment="Left" Margin="264,10,0,0" VerticalAlignment="Top" FontFamily="Constantia" FontSize="36" FontWeight="Bold" Width="124" RenderTransformOrigin="0.5,0.5" Opacity="0.8" Height="54"/>
+        <TextBox x:Name="txtBase64" HorizontalAlignment="Left" Height="191" Margin="114,172,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="429" Padding="10"/>
+        <Label Content="Base 64" HorizontalAlignment="Left" Margin="114,137,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" TextOptions.TextHintingMode="Fixed" TextOptions.TextFormattingMode="Display" Height="30" Width="84"/>
+        <Label x:Name="status" Content="" HorizontalAlignment="Left" Margin="482,137,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" TextOptions.TextHintingMode="Fixed" TextOptions.TextFormattingMode="Display" Height="30" Width="65"/>
+        <Label Content="Status :" HorizontalAlignment="Left" Margin="420,137,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" TextOptions.TextHintingMode="Fixed" TextOptions.TextFormattingMode="Display" Height="30" Width="60" RenderTransformOrigin="0.73,0.6"/>
+
+    </Grid>
+
+</Window>

@@ -1,0 +1,11 @@
+C:\Users\chainrocker\source\repos\Server\SecondaryIdleRQ\bin\Debug\netcoreapp2.1\SecondaryIdleRQ.deps.json
+C:\Users\chainrocker\source\repos\Server\SecondaryIdleRQ\bin\Debug\netcoreapp2.1\SecondaryIdleRQ.runtimeconfig.json
+C:\Users\chainrocker\source\repos\Server\SecondaryIdleRQ\bin\Debug\netcoreapp2.1\SecondaryIdleRQ.runtimeconfig.dev.json
+C:\Users\chainrocker\source\repos\Server\SecondaryIdleRQ\bin\Debug\netcoreapp2.1\SecondaryIdleRQ.dll
+C:\Users\chainrocker\source\repos\Server\SecondaryIdleRQ\bin\Debug\netcoreapp2.1\SecondaryIdleRQ.pdb
+C:\Users\chainrocker\source\repos\Server\SecondaryIdleRQ\obj\Debug\netcoreapp2.1\SecondaryIdleRQ.csproj.CoreCompileInputs.cache
+C:\Users\chainrocker\source\repos\Server\SecondaryIdleRQ\obj\Debug\netcoreapp2.1\SecondaryIdleRQ.AssemblyInfoInputs.cache
+C:\Users\chainrocker\source\repos\Server\SecondaryIdleRQ\obj\Debug\netcoreapp2.1\SecondaryIdleRQ.AssemblyInfo.cs
+C:\Users\chainrocker\source\repos\Server\SecondaryIdleRQ\obj\Debug\netcoreapp2.1\SecondaryIdleRQ.dll
+C:\Users\chainrocker\source\repos\Server\SecondaryIdleRQ\obj\Debug\netcoreapp2.1\SecondaryIdleRQ.pdb
+C:\Users\chainrocker\source\repos\Server\SecondaryIdleRQ\obj\Debug\netcoreapp2.1\SecondaryIdleRQ.csprojAssemblyReference.cache
