@@ -1,0 +1,10 @@
+C:\Users\chainrocker\source\repos\Server\Secondary\bin\Debug\netcoreapp2.1\Secondary.deps.json
+C:\Users\chainrocker\source\repos\Server\Secondary\bin\Debug\netcoreapp2.1\Secondary.runtimeconfig.json
+C:\Users\chainrocker\source\repos\Server\Secondary\bin\Debug\netcoreapp2.1\Secondary.runtimeconfig.dev.json
+C:\Users\chainrocker\source\repos\Server\Secondary\bin\Debug\netcoreapp2.1\Secondary.dll
+C:\Users\chainrocker\source\repos\Server\Secondary\obj\Debug\netcoreapp2.1\Secondary.csproj.CoreCompileInputs.cache
+C:\Users\chainrocker\source\repos\Server\Secondary\obj\Debug\netcoreapp2.1\Secondary.AssemblyInfoInputs.cache
+C:\Users\chainrocker\source\repos\Server\Secondary\obj\Debug\netcoreapp2.1\Secondary.AssemblyInfo.cs
+C:\Users\chainrocker\source\repos\Server\Secondary\bin\Debug\netcoreapp2.1\Secondary.pdb
+C:\Users\chainrocker\source\repos\Server\Secondary\obj\Debug\netcoreapp2.1\Secondary.dll
+C:\Users\chainrocker\source\repos\Server\Secondary\obj\Debug\netcoreapp2.1\Secondary.pdb

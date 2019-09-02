@@ -5,11 +5,11 @@ using System.Net.Sockets;
 using System.Security.Cryptography;
 using System.Text;
 
-namespace SecondaryIdleRQ
+namespace Secondary
 {
     class Program
     {
-        
+
         static void Main(string[] args)
         {
             string data;
@@ -23,7 +23,7 @@ namespace SecondaryIdleRQ
             Console.WriteLine("Waiting for client");
             Socket client = socket.Accept();
             IPEndPoint newClient = (IPEndPoint)client.RemoteEndPoint;
-            Console.WriteLine("Connected with {0} at port {1}",newClient.Address,newClient.Port);
+            Console.WriteLine("Connected with {0} at port {1}", newClient.Address, newClient.Port);
 
             NetworkStream ns = new NetworkStream(client);
             StreamReader sr = new StreamReader(ns);
@@ -45,7 +45,7 @@ namespace SecondaryIdleRQ
                         package = frame.Value.ToObject<PackageData>();
                         text += package.DATA;
                     }
-                   
+
                 }
                 catch (IOException)
                 {
@@ -68,8 +68,7 @@ namespace SecondaryIdleRQ
         }
         public static string FormatType(string dataJson)
         {
-            string dataFormat = dataJson.Replace("Idle_RQ", "SecondaryIdleRQ");
-            dataFormat = dataFormat.Replace("Idle RQ", "SecondaryIdleRQ");
+            string dataFormat = dataJson.Replace("Primary", "Secondary");           
             return dataFormat;
         }
         public static string Base64Encode(string plainText)

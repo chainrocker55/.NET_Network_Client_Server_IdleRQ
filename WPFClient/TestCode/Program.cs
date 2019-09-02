@@ -1,14 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text.RegularExpressions;
+﻿using System.Collections.Generic;
 
 namespace TestCode
 {
     using System;
     using System.Timers;
+    
     class Program
     {
+        private static int count = 0;
         private static Timer aTimer = new Timer();
         static void Main(string[] args)
         {
@@ -17,7 +16,7 @@ namespace TestCode
             //string[] s = Split(str, chunkSize);          
             //Array.ForEach(s, Console.WriteLine);
             //Console.WriteLine();
-            aTimer.Interval = 2000;
+            aTimer.Interval = 1000;
 
             // Hook up the Elapsed event for the timer. 
             aTimer.Elapsed += OnTimedEvent;
@@ -26,8 +25,8 @@ namespace TestCode
             aTimer.AutoReset = true;
 
             // Start the timer
-            aTimer.Enabled = true;
-
+            aTimer.Start();
+           
             Console.WriteLine("Press the Enter key to exit the program at any time... ");
             Console.ReadLine();
         }
@@ -35,6 +34,11 @@ namespace TestCode
         private static void OnTimedEvent(Object source, ElapsedEventArgs e)
         {
             Console.WriteLine("The Elapsed event was raised at {0}", e.SignalTime);
+            count++;
+            if (count == 10)
+            {
+                aTimer.Stop();
+            }
         }
 
         public static string[] Split(string str, int chunkSize)

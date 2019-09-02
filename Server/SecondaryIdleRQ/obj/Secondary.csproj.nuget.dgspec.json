@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\chainrocker\\source\\repos\\Server\\SecondaryIdleRQ\\SecondaryIdleRQ.csproj": {}
+    "C:\\Users\\chainrocker\\source\\repos\\Server\\SecondaryIdleRQ\\Secondary.csproj": {}
   },
   "projects": {
-    "C:\\Users\\chainrocker\\source\\repos\\Server\\SecondaryIdleRQ\\SecondaryIdleRQ.csproj": {
+    "C:\\Users\\chainrocker\\source\\repos\\Server\\SecondaryIdleRQ\\Secondary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chainrocker\\source\\repos\\Server\\SecondaryIdleRQ\\SecondaryIdleRQ.csproj",
-        "projectName": "SecondaryIdleRQ",
-        "projectPath": "C:\\Users\\chainrocker\\source\\repos\\Server\\SecondaryIdleRQ\\SecondaryIdleRQ.csproj",
+        "projectUniqueName": "C:\\Users\\chainrocker\\source\\repos\\Server\\SecondaryIdleRQ\\Secondary.csproj",
+        "projectName": "Secondary",
+        "projectPath": "C:\\Users\\chainrocker\\source\\repos\\Server\\SecondaryIdleRQ\\Secondary.csproj",
         "packagesPath": "C:\\Users\\chainrocker\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\chainrocker\\source\\repos\\Server\\SecondaryIdleRQ\\obj\\",
         "projectStyle": "PackageReference",
@@ -45,6 +45,10 @@
               "target": "Package",
               "version": "[2.1.0, )",
               "autoReferenced": true
+            },
+            "Nancy": {
+              "target": "Package",
+              "version": "[2.0.0, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",

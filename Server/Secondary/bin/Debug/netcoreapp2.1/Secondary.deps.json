@@ -6,12 +6,12 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.1": {
-      "SecondaryIdleRQ/1.0.0": {
+      "Secondary/1.0.0": {
         "dependencies": {
           "Newtonsoft.Json": "12.0.2"
         },
         "runtime": {
-          "SecondaryIdleRQ.dll": {}
+          "Secondary.dll": {}
         }
       },
       "Newtonsoft.Json/12.0.2": {
@@ -25,7 +25,7 @@
     }
   },
   "libraries": {
-    "SecondaryIdleRQ/1.0.0": {
+    "Secondary/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\chainrocker\\source\\repos\\Server\\SecondaryIdleRQ\\SecondaryIdleRQ.csproj": {}
+    "C:\\Users\\chainrocker\\source\\repos\\Server\\Secondary\\Secondary.csproj": {}
   },
   "projects": {
-    "C:\\Users\\chainrocker\\source\\repos\\Server\\SecondaryIdleRQ\\SecondaryIdleRQ.csproj": {
+    "C:\\Users\\chainrocker\\source\\repos\\Server\\Secondary\\Secondary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chainrocker\\source\\repos\\Server\\SecondaryIdleRQ\\SecondaryIdleRQ.csproj",
-        "projectName": "SecondaryIdleRQ",
-        "projectPath": "C:\\Users\\chainrocker\\source\\repos\\Server\\SecondaryIdleRQ\\SecondaryIdleRQ.csproj",
+        "projectUniqueName": "C:\\Users\\chainrocker\\source\\repos\\Server\\Secondary\\Secondary.csproj",
+        "projectName": "Secondary",
+        "projectPath": "C:\\Users\\chainrocker\\source\\repos\\Server\\Secondary\\Secondary.csproj",
         "packagesPath": "C:\\Users\\chainrocker\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chainrocker\\source\\repos\\Server\\SecondaryIdleRQ\\obj\\",
+        "outputPath": "C:\\Users\\chainrocker\\source\\repos\\Server\\Secondary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

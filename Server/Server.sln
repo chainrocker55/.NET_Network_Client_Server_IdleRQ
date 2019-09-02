@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerBase64", "ServerBase6
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SecondaryIdleRQ", "SecondaryIdleRQ\SecondaryIdleRQ.csproj", "{D002D796-0197-4464-AE18-0F9BD93E9345}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Secondary", "Secondary\Secondary.csproj", "{ADEF615F-BAF1-4825-AA52-B68DA4F2C85B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{D002D796-0197-4464-AE18-0F9BD93E9345}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D002D796-0197-4464-AE18-0F9BD93E9345}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D002D796-0197-4464-AE18-0F9BD93E9345}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADEF615F-BAF1-4825-AA52-B68DA4F2C85B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADEF615F-BAF1-4825-AA52-B68DA4F2C85B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADEF615F-BAF1-4825-AA52-B68DA4F2C85B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADEF615F-BAF1-4825-AA52-B68DA4F2C85B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
