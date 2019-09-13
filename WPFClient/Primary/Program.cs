@@ -20,7 +20,7 @@ namespace Primary
             int start = 0;
             int chunkSize = 20;
 
-            string temp = File.ReadAllText(@"D:\Network\Client\Lowercase.txt");
+            string temp = File.ReadAllText(@"D:\Network\Client\Text.txt");
             Console.WriteLine();
             Console.WriteLine("*********************** Text file ************************");
             Console.WriteLine();

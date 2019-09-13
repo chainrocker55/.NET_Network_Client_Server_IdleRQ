@@ -13,7 +13,7 @@ namespace Secondary
         {
             string data;
             string text = string.Empty;
-            PackageData package;
+            PackageData package = new PackageData() ;
             IPEndPoint ipep = new IPEndPoint(IPAddress.Any, 9050);
             Socket socket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
             Console.Title = "IdleRQ Secondary";
@@ -42,7 +42,7 @@ namespace Secondary
                         data = FormatType(data);
                         JPackage frame = JPackage.Deserialize(data);
                         package = frame.Value.ToObject<PackageData>();
-                        text += package.DATA;
+                        
                         start++;
                     }
 
@@ -57,6 +57,7 @@ namespace Secondary
                 }
                 else
                 {
+                    text += package.DATA;
                     sw.WriteLine("ACK");
                     sw.Flush();
                 }
@@ -70,6 +71,7 @@ namespace Secondary
             Console.WriteLine("*********************** Text file ************************");
             Console.WriteLine();
             Console.WriteLine(text);
+            Console.WriteLine();
             Console.WriteLine("Disconnected");
 
         }
