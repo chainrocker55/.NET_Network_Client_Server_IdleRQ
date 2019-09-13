@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29201.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Face-Detect-AI", "Face-Detect-AI\Face-Detect-AI.csproj", "{51A7A568-F6B6-4F1C-8309-F24FDCCB9C6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test camera", "Test camera\Test camera.csproj", "{2639BCEC-2BE4-425C-A75E-23A0B2862ED6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51A7A568-F6B6-4F1C-8309-F24FDCCB9C6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51A7A568-F6B6-4F1C-8309-F24FDCCB9C6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51A7A568-F6B6-4F1C-8309-F24FDCCB9C6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51A7A568-F6B6-4F1C-8309-F24FDCCB9C6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2639BCEC-2BE4-425C-A75E-23A0B2862ED6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2639BCEC-2BE4-425C-A75E-23A0B2862ED6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2639BCEC-2BE4-425C-A75E-23A0B2862ED6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2639BCEC-2BE4-425C-A75E-23A0B2862ED6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0B135C7B-A77E-4B33-AB17-E14F8C28B9AA}
+	EndGlobalSection
+EndGlobal

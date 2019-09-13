@@ -1,0 +1,10 @@
+C:\Users\chainrocker\source\repos\Face-Detect-AI\Face-Detect-AI\bin\Debug\netcoreapp2.1\Face-Detect-AI.deps.json
+C:\Users\chainrocker\source\repos\Face-Detect-AI\Face-Detect-AI\bin\Debug\netcoreapp2.1\Face-Detect-AI.runtimeconfig.json
+C:\Users\chainrocker\source\repos\Face-Detect-AI\Face-Detect-AI\bin\Debug\netcoreapp2.1\Face-Detect-AI.runtimeconfig.dev.json
+C:\Users\chainrocker\source\repos\Face-Detect-AI\Face-Detect-AI\bin\Debug\netcoreapp2.1\Face-Detect-AI.dll
+C:\Users\chainrocker\source\repos\Face-Detect-AI\Face-Detect-AI\bin\Debug\netcoreapp2.1\Face-Detect-AI.pdb
+C:\Users\chainrocker\source\repos\Face-Detect-AI\Face-Detect-AI\obj\Debug\netcoreapp2.1\Face-Detect-AI.csproj.CoreCompileInputs.cache
+C:\Users\chainrocker\source\repos\Face-Detect-AI\Face-Detect-AI\obj\Debug\netcoreapp2.1\Face-Detect-AI.AssemblyInfoInputs.cache
+C:\Users\chainrocker\source\repos\Face-Detect-AI\Face-Detect-AI\obj\Debug\netcoreapp2.1\Face-Detect-AI.AssemblyInfo.cs
+C:\Users\chainrocker\source\repos\Face-Detect-AI\Face-Detect-AI\obj\Debug\netcoreapp2.1\Face-Detect-AI.dll
+C:\Users\chainrocker\source\repos\Face-Detect-AI\Face-Detect-AI\obj\Debug\netcoreapp2.1\Face-Detect-AI.pdb

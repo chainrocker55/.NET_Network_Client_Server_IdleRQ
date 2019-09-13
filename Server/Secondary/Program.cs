@@ -9,7 +9,6 @@ namespace Secondary
 {
     class Program
     {
-
         static void Main(string[] args)
         {
             string data;
@@ -30,7 +29,7 @@ namespace Secondary
             StreamWriter sw = new StreamWriter(ns);
             sw.WriteLine("Connected success");
             sw.Flush();
-
+            int start = 0;
             while (true)
             {
                 try
@@ -44,6 +43,7 @@ namespace Secondary
                         JPackage frame = JPackage.Deserialize(data);
                         package = frame.Value.ToObject<PackageData>();
                         text += package.DATA;
+                        start++;
                     }
 
                 }
@@ -51,9 +51,16 @@ namespace Secondary
                 {
                     break;
                 }
-
-                sw.WriteLine("ACK");
-                sw.Flush();
+                if (start%3==0)
+                {
+                   
+                }
+                else
+                {
+                    sw.WriteLine("ACK");
+                    sw.Flush();
+                }
+                
             }
             ns.Close();
             sr.Close();

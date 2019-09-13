@@ -1,0 +1,17 @@
+C:\Users\chainrocker\source\repos\Face-Detect-AI\Test camera\bin\Debug\Test camera.exe.config
+C:\Users\chainrocker\source\repos\Face-Detect-AI\Test camera\bin\Debug\Test camera.exe
+C:\Users\chainrocker\source\repos\Face-Detect-AI\Test camera\bin\Debug\Test camera.pdb
+C:\Users\chainrocker\source\repos\Face-Detect-AI\Test camera\bin\Debug\AForge.dll
+C:\Users\chainrocker\source\repos\Face-Detect-AI\Test camera\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\chainrocker\source\repos\Face-Detect-AI\Test camera\bin\Debug\AForge.Video.dll
+C:\Users\chainrocker\source\repos\Face-Detect-AI\Test camera\bin\Debug\AForge.xml
+C:\Users\chainrocker\source\repos\Face-Detect-AI\Test camera\bin\Debug\AForge.Video.xml
+C:\Users\chainrocker\source\repos\Face-Detect-AI\Test camera\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\chainrocker\source\repos\Face-Detect-AI\Test camera\obj\Debug\Test camera.csprojAssemblyReference.cache
+C:\Users\chainrocker\source\repos\Face-Detect-AI\Test camera\obj\Debug\Test_camera.Form1.resources
+C:\Users\chainrocker\source\repos\Face-Detect-AI\Test camera\obj\Debug\Test_camera.Properties.Resources.resources
+C:\Users\chainrocker\source\repos\Face-Detect-AI\Test camera\obj\Debug\Test camera.csproj.GenerateResource.cache
+C:\Users\chainrocker\source\repos\Face-Detect-AI\Test camera\obj\Debug\Test camera.csproj.CoreCompileInputs.cache
+C:\Users\chainrocker\source\repos\Face-Detect-AI\Test camera\obj\Debug\Test camera.csproj.CopyComplete
+C:\Users\chainrocker\source\repos\Face-Detect-AI\Test camera\obj\Debug\Test camera.exe
+C:\Users\chainrocker\source\repos\Face-Detect-AI\Test camera\obj\Debug\Test camera.pdb

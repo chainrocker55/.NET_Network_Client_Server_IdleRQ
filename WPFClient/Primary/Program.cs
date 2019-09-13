@@ -18,7 +18,7 @@ namespace Primary
             string data;
             string ack = string.Empty;
             int start = 0;
-            int chunkSize = 8;
+            int chunkSize = 20;
 
             string temp = File.ReadAllText(@"D:\Network\Client\Lowercase.txt");
             Console.WriteLine();
@@ -52,25 +52,26 @@ namespace Primary
             Console.WriteLine(ack);
             Console.WriteLine("Press the Enter key to start");
             Console.ReadLine();
-            StartTime();
+            //StartTime();
+            ns.ReadTimeout = 2000;
 
-            while (start < ArrayPackage.Length)
+            while (start < ArrayPackage.Length-1)
             {
                 
-                while (timeout) { }
+                //while (timeout) { }
                 //Console.WriteLine("Time out repeat frame {0} again", start);
                // while (status) { }
 
-                if (ack.Equals("ACK") || ack.Equals("Connected success"))
+                if (ack.Equals("ACK"))
                 {
+                    start++;
                     package = ArrayPackage[start];
                     string obj = JPackage.Serialize(JPackage.FromValue(package));
-                    Console.WriteLine(obj);
+                    //Console.WriteLine(obj);
                     obj = Base64Encode(obj);
                     sw.WriteLine(obj);
                     sw.Flush();
-                    //status = true;
-                    start++;
+                    //status = true;                  
                     ack = string.Empty;
                     timeout =  true;
                 }
@@ -78,18 +79,25 @@ namespace Primary
                 {
                     package = ArrayPackage[start];
                     string obj = JPackage.Serialize(JPackage.FromValue(package));
-                    Console.WriteLine(obj);
+                    //Console.WriteLine(obj);
                     obj = Base64Encode(obj);
                     sw.WriteLine(obj);
                     sw.Flush();
                     //status = true;
                     ack = string.Empty;
-                    timeout = false;
+                    timeout = true;
                     aTimer.Start();
                 }
-                ack = sr.ReadLine();
-                Console.WriteLine("Server response : {0}", ack);
-                Console.WriteLine();
+                try
+                {
+                    ack = sr.ReadLine();
+                    Console.WriteLine("Server response : {0}", ack);
+                }
+                catch(Exception)
+                {
+                    Console.WriteLine("Server response : {0}", ack);
+                }
+                
 
             }
             ns.Close();
@@ -101,12 +109,12 @@ namespace Primary
         }
         private static void OnTimedEvent(Object source, ElapsedEventArgs e)
         {
-            timeout = !timeout;
+            timeout = false;
             status = false;
         }
         public static void StartTime()
         {
-            aTimer.Interval = 1000;
+            aTimer.Interval = 4000;
 
             // Hook up the Elapsed event for the timer. 
             aTimer.Elapsed += OnTimedEvent;

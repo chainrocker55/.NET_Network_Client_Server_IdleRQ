@@ -8,3 +8,4 @@ C:\Users\chainrocker\source\repos\Server\Secondary\obj\Debug\netcoreapp2.1\Secon
 C:\Users\chainrocker\source\repos\Server\Secondary\bin\Debug\netcoreapp2.1\Secondary.pdb
 C:\Users\chainrocker\source\repos\Server\Secondary\obj\Debug\netcoreapp2.1\Secondary.dll
 C:\Users\chainrocker\source\repos\Server\Secondary\obj\Debug\netcoreapp2.1\Secondary.pdb
+C:\Users\chainrocker\source\repos\Server\Secondary\obj\Debug\netcoreapp2.1\Secondary.csprojAssemblyReference.cache
